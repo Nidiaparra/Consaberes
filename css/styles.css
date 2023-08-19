@@ -178,6 +178,14 @@
   border: none;
   cursor: pointer;
 }
+.btn-lang3 {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/loitalia.jpg);
+  border: none;
+  cursor: pointer;
+}
 
 .menu-vertical {
   position: absolute;
@@ -936,4 +944,41 @@ a {
 
 .ap {
   text-decoration: none;
+}
+
+.line {
+  text-decoration: none;
+  font-family: cursive;
+  color: black;
+  font-size: 25px;
+}
+
+.btnz {
+  background-color: rgb(206, 166, 252);
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border: rgb(22, 102, 194) 6px inset;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.btnz:hover {
+  background-color: lightgray;
+}
+
+.buttonz {
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+}
+
+.h2z {
+  background-color: cornflowerblue;
+  height: 30px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
 }
